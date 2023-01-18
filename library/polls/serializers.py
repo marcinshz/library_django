@@ -10,4 +10,4 @@ class UserSerializer(serializers.ModelSerializer):
     borrowed_books = BookSerializer(read_only=True, many=True)
     class Meta:
         model = User
-        fields = ['name', 'borrowed_books']
+        fields = ['id','name', 'borrowed_books']
