@@ -6,6 +6,7 @@
 3. run python -m pip install -r requirements.txt
 5. run python manage.py migrate
 6. run python manage.py createsuperuser (Credentials are needed for swagger authentication)
+7. create .env file in library_django directory and add SECRET_KEY='<any key here>' inside
 7. run python manage.py runserver
 
 Swagger UI is available at http://localhost:8000/docs
